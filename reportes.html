@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Medicos</title>
+    <link rel="stylesheet" href="reportes.css">
+</head>
+<body>
+    <nav class="navbar"> 
+        <div class="logo">Clinica Jony Grey - Portal Medicos</div>
+        <button class="button">Pagina Principal</button>
+     </nav>
+     <div class="container"> 
+        <h2> Bienvenido, Dr Clara</h2>
+        <h3> Ingrese el documento de identidad del paciente para generar el reporte</h3>
+        <span style="display: block;">Tipo y numero de identificación</span>
+        <div class="container-input">
+            <select name="cctipo" id="cctipo">
+                <option value="CC">CC</option>
+                <option value="CE">CE</option>
+                <option value="RC">rc</option>
+                <option value="TI">TI</option>
+              </select>
+        </div>
+        <div class="container-input">
+              <input type="number" placeholder="Numero de identificación">
+          </div>
+        
+        <h3> Seleccione los reportes que desea consultar</h3>
+         <div class="container-input">
+            <input type="date" placeholder="Fecha de nacimiento">
+            <input type="date" placeholder="Fecha de nacimiento">
+        </div>
+        <button class="button">Consultar reporte</button>
+        <button class="button">Imprimir reporte</button>
+     </div>
+</body>
+</html>
